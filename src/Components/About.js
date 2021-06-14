@@ -4,18 +4,19 @@ import "../CSS/About.css"
 
 const About = () => {
     return (
-        <div className = "container" >
+        <div id = "About" className = "fcontainer" >
             <div className="Banner">
-                    <div className =  "img.resize">
+                    <div className =  "">
                     <img src={logo} alt="logo" class="images"/>
                     </div>
-            </div>
-            <div className="About-Me">
+            
+            <div className="top-left">
             <p>An innovative, goal-oriented and self-directed professional with a M.S. in Computer Science and B.S. in Mechanical Engineering (Aerospace Concentration) with relative experience in Systems and Software Engineering. 
                 Adept at collaborating with engineering team to conceptualize and deliver quality work. 
                 Proficient in Python, Java, JavaScript, R, MySQL, ReactJS and Python Flask. 
                 Superior work-ethic with outstanding analytical, project-management skills.
             </p>
+            </div>
             </div>
             
         </div>

@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar  />
         </div>
     )
 }

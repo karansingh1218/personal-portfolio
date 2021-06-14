@@ -7,23 +7,39 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./Components/About";
+import Experience from "./Components/Experience";
+import Education from "./Components/Education";
+import Projects from "./Components/Projects";
+import StickyBox from "react-sticky-box";
 
 
-const Routing = () => {
-  return (
-    <Router>
-      <Header />
-      <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/about" component={About} />
-      </Switch>
-    </Router>
-  )
-}
+// const Routing = () => {
+//   return (
+//     <Router>
+//       <Header />
+//       <Switch>
+//       <Route exact path="/" component={App} />
+//       <Route path="/about" component={About} />
+//       </Switch>
+//     </Router>
+//   )
+// }
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routing />
+    <div className = "nav">
+    <StickyBox>
+    <Header />
+    </StickyBox>
+    </div>
+    <About />
+    <Experience />
+
+    <Education />
+    
+    <Projects />
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
