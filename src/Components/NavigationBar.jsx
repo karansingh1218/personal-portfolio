@@ -57,7 +57,7 @@ export const NavigationBar = () => {
       duration={750}>
       <Nav.Link href="#Projects">Projects</Nav.Link>
       </Link>
-      <Link className="link"
+      {/* <Link className="link"
       activeClass="active"
       to="Contact"
       spy={true}
@@ -65,7 +65,7 @@ export const NavigationBar = () => {
       offset={0}
       duration={750}>
       <Nav.Link href="#Contact">Contact</Nav.Link>
-      </Link>
+      </Link> */}
     </Nav>
 
   </Navbar.Collapse>

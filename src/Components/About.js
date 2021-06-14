@@ -1,5 +1,5 @@
 // Assuming logo.png is in the same folder as JS file
-import logo from '../Images/my-visual_54893015.png';
+import logo from '../Images/lighthouse.png';
 import "../CSS/About.css"
 
 const About = () => {
@@ -11,11 +11,14 @@ const About = () => {
                     </div>
             
             <div className="top-left">
-            <p>An innovative, goal-oriented and self-directed professional with a M.S. in Computer Science and B.S. in Mechanical Engineering (Aerospace Concentration) with relative experience in Systems and Software Engineering. 
+            <p style = {{ "font-size": "1.5vw"}}> 
+            An innovative, goal-oriented and self-directed professional with a M.S. in Computer Science and B.S. in Mechanical Engineering (Aerospace Concentration) with relative experience in Systems and Software Engineering. 
                 Adept at collaborating with engineering team to conceptualize and deliver quality work. 
-                Proficient in Python, Java, JavaScript, R, MySQL, ReactJS and Python Flask. 
+                Proficient in Python, Java, JavaScript, R, MySQL. 
                 Superior work-ethic with outstanding analytical, project-management skills.
             </p>
+            <p style = {{ "font-size": "1.5vw"}}><a href="https://www.linkedin.com/in/karansingh1218/">LinkedIn</a> : 
+                <a href="https://github.com/karansingh1218"> Github</a></p>
             </div>
             </div>
             
